@@ -1,0 +1,29 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "an application to track employees",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+      
+      "type": "module"
+  },
+  "keywords": [
+    "joop"
+  ],
+  "author": "nathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathanthebacon1/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/Nathanthebacon1/employee-tracker#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "mysql2": "^2.3.3"
+  }
+}
+
+
