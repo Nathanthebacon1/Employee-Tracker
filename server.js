@@ -1,4 +1,4 @@
-import inquirer from 'inquirer'
+const inquirer =  require("inquirer");
 const mysql = require("mysql");
 const consoleTable = require("console.table");
 
@@ -6,8 +6,8 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "yourRootPassword",
-  database: "employee_trackerDB"
+  password: "#beepboop124",
+  database: "employee_trackerd"
 });
 
 // update server
